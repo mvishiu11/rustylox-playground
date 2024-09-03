@@ -6,7 +6,6 @@ module.exports = function override(config, env) {
   config.plugins.push(
     new WasmPackPlugin({
       crateDirectory: path.resolve(__dirname, './src/rustylox-pkg'),
-      extraArgs: '--no-typescript',
     })
   );
   return config;
