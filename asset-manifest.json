@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/rustylox-playground/static/css/main.b078277a.css",
+    "main.js": "/rustylox-playground/static/js/main.2da14779.js",
+    "static/js/453.0f63858a.chunk.js": "/rustylox-playground/static/js/453.0f63858a.chunk.js",
+    "static/media/rustylox_bg.wasm": "/rustylox-playground/static/media/rustylox_bg.108d8cec0a988729d3f9.wasm",
+    "index.html": "/rustylox-playground/index.html",
+    "main.b078277a.css.map": "/rustylox-playground/static/css/main.b078277a.css.map",
+    "main.2da14779.js.map": "/rustylox-playground/static/js/main.2da14779.js.map",
+    "453.0f63858a.chunk.js.map": "/rustylox-playground/static/js/453.0f63858a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b078277a.css",
+    "static/js/main.2da14779.js"
+  ]
+}
