@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# 🎨 Rustylox Interpreter Playground 🌐
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the **Rustylox Playground**! This is a web-based interactive playground for experimenting with the features of the **Rustylox** interpreter. Explore, test, and have fun with the language right from your browser!
 
-## Available Scripts
+## 🌟 Features
 
-In the project directory, you can run:
+- **Interactive Console**: Write code, see immediate output.
+- **Code Examples**: Easily access a set of predefined examples to learn the syntax.
+- **Modes**: Choose between different execution modes:
+  - **Tokenize**: See how your code is tokenized.
+  - **Parse**: Check the parsing results.
+  - **Interpret**: Execute the code and view the results.
 
-### `npm start`
+## 🚀 Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Just go to [Live Playground](https://mvishiu11.github.io/rustylox-playground) to start!
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+You can also deploy locally if you want:
 
-### `npm test`
+1. **Run Locally**: Clone the repository and run it locally with these commands:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```bash
+   git clone https://github.com/your-username/my-language-playground.git
+   cd my-language-playground
+   npm install
+   npm start
+   ```
 
-### `npm run build`
+2. **Visit the Playground**: Once the server is running, open [http://localhost:3000](http://localhost:3000) in your browser.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📚 Resources
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Interpreter Repo**: Check out the [Rustylox Interpreter Repository](https://github.com/mvishiu11/rustylox) for more details about the language implementation.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Crafting Interpreters Book**: Learn about crafting interpreters from the [Crafting Interpreters Book](https://craftinginterpreters.com/).
 
-### `npm run eject`
+## 🔗 Links
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- [GitHub Repository](https://github.com/mvishiu11/rustylox)
+- [Live Playground](https://mvishiu11.github.io/rustylox-playground)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛠️ Tech Stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Frontend**: React, Material-UI
+- **Backend**: Rust (via WebAssembly)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📝 License
 
-## Learn More
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to contribute, report issues, or suggest features! Happy coding! 😊
