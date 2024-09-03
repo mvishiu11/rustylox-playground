@@ -9,7 +9,7 @@ const Navbar: React.FC = () => {
           My Language Playground
         </Typography>
         <Button color="inherit" href="https://github.com/mvishiu11/rustylox" target="_blank">
-          GitHub
+          Rustylox GitHub
         </Button>
         <Button color="inherit" href="https://craftinginterpreters.com/" target="_blank">
           Crafting Interpreters

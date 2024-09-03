@@ -34,7 +34,7 @@ const MainArea: React.FC<MainAreaProps> = ({ code, output, onCodeChange, onRun, 
         sx={{ width: '80%', maxWidth: '800px', marginBottom: '20px' }}
       />
       <Box sx={{ marginBottom: 2, textAlign: 'center' }}>
-        <Button variant="contained" color="primary" onClick={() => setMode('tokenize')} sx={{ mr: 1 }}>
+        <Button variant="contained" color="info" onClick={() => setMode('tokenize')} sx={{ mr: 1 }}>
           Tokenize
         </Button>
         <Button variant="contained" color="secondary" onClick={() => setMode('parse')} sx={{ mr: 1 }}>
