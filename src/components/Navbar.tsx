@@ -6,7 +6,7 @@ const Navbar: React.FC = () => {
     <AppBar position="fixed" sx={{ zIndex: (theme) => theme.zIndex.drawer + 1 }}>
       <Toolbar>
         <Typography variant="h6" noWrap component="div" sx={{ flexGrow: 1 }}>
-          My Language Playground
+          Rustylox Playground 🚀
         </Typography>
         <Button color="inherit" href="https://github.com/mvishiu11/rustylox" target="_blank">
           Rustylox GitHub
