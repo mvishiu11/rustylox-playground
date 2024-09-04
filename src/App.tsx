@@ -10,12 +10,6 @@ interface Example {
   code: string;
 }
 
-const examples: Example[] = [
-  { name: "Hello World", code: 'print("Hello, world!");' },
-  { name: "Simple Addition", code: 'print(1 + 2);' },
-  { name: "Conditional", code: 'if (true) { print("It is true!"); } else { print("It is false!"); }' }
-];
-
 function App() {
   const [code, setCode] = useState<string>('');
   const [examples, setExamples] = useState<Example[]>([]);
