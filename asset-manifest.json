@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/rustylox-playground/static/js/main.ee836b37.js",
+    "main.js": "/rustylox-playground/static/js/main.fdea8798.js",
     "static/media/rustylox_bg.wasm": "/rustylox-playground/static/media/rustylox_bg.90edba0f29b831a4740f.wasm",
     "index.html": "/rustylox-playground/index.html",
     "static/media/block.lox": "/rustylox-playground/static/media/block.fa3f771e1408bb075d5a.lox",
@@ -11,9 +11,9 @@
     "static/media/hello_world.lox": "/rustylox-playground/static/media/hello_world.c786489ada897ad93b4d.lox",
     "static/media/var_add.lox": "/rustylox-playground/static/media/var_add.92372579c147270bfcf8.lox",
     "static/media/add.lox": "/rustylox-playground/static/media/add.b53ba4f4bf97eaff5b2f.lox",
-    "main.ee836b37.js.map": "/rustylox-playground/static/js/main.ee836b37.js.map"
+    "main.fdea8798.js.map": "/rustylox-playground/static/js/main.fdea8798.js.map"
   },
   "entrypoints": [
-    "static/js/main.ee836b37.js"
+    "static/js/main.fdea8798.js"
   ]
 }
