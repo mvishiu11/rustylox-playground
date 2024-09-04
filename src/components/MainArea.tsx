@@ -31,7 +31,7 @@ const MainArea: React.FC<MainAreaProps> = ({ code, output, onCodeChange, onRun, 
         variant="outlined"
         value={code}
         onChange={(e) => onCodeChange(e.target.value)}
-        sx={{ width: '80%', maxWidth: '800px', marginBottom: '20px' }}
+        sx={{ width: '40vw', marginBottom: '20px' }}
       />
       <Box sx={{ marginBottom: 2, textAlign: 'center' }}>
         <Button variant="contained" color="info" onClick={() => setMode('tokenize')} sx={{ mr: 1 }}>
@@ -57,7 +57,7 @@ const MainArea: React.FC<MainAreaProps> = ({ code, output, onCodeChange, onRun, 
         InputProps={{
           readOnly: true,
         }}
-        sx={{ width: '80%', maxWidth: '800px', marginTop: '20px' }}
+        sx={{ width: '40vw', marginTop: '20px' }}
       />
     </Box>
   );

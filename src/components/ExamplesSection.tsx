@@ -20,10 +20,10 @@ const GridList = styled(List)({
 });
 
 const ThinDrawer = styled(Drawer)({
-  width: '500px',
+  width: '25vw',
   flexShrink: 0,
   '& .MuiDrawer-paper': {
-    width: '500px',
+    width: '25vw',
     boxSizing: 'border-box',
   },
 });
